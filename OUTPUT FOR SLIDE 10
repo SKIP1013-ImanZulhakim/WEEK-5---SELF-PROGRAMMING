@@ -1,0 +1,11 @@
+Input first integer: 1
+Input second integer: 1
+1 == 1
+1 <= 1
+1 >= 1
+
+Input first integer: 3
+Input second integer: 2
+3 != 2
+3 > 2
+3 >= 2

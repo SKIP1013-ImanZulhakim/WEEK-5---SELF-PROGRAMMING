@@ -1,0 +1,31 @@
+package selfProgramming;
+import java.util.Scanner;
+
+
+public class IfStatement {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		// declare and intialize variable
+		
+		int total = 0,MAX=0,charge = 0,MAX_RATE = 0;
+		
+		System.out.println("Enter total : ");
+		total = sc.nextInt();
+		
+		System.out.println("Enter MAX : ");
+		MAX =sc.nextInt();
+		
+		System.out.println("Enter MAX_rate : ");
+		MAX_RATE = sc.nextInt();
+		
+	
+		if (total > MAX)
+			   charge = total * MAX_RATE;
+			System.out.println ("The total is " + charge);
+
+
+	}
+
+}

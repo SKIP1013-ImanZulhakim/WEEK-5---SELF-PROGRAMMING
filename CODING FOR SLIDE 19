@@ -11,7 +11,7 @@ public class LogicalOperator {
 		System.out.println("Enter balance : ");
 		int   balance = sc.nextInt();
 		
-		
+		//Expressions that use logical operators can form complex conditions
 		if  ((amount <= 1000.0) && (amount <= balance))
 		{   balance = balance - amount;
 			System.out.println("Acct new balance = " + balance);

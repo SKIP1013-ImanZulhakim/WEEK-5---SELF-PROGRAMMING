@@ -1,0 +1,28 @@
+package selfProgramming;
+import java.util.Scanner;
+public class BlockStatement {
+
+	public static void main(String[] args) {
+		// Several statements can be grouped together into a block statement delimited by braces
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter total : ");
+		int total = sc.nextInt();
+		
+		System.out.println("Enter MAX : ");
+		int   MAX = sc.nextInt();
+		
+		
+	    int errorCount = 0;
+	    
+		if (total > MAX)
+    //start of block statement
+		{
+		   System.out.println ("Error!!");
+		   errorCount++;
+		}//end of block statement
+    
+		System.out.println(errorCount);
+	}
+
+}

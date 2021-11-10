@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class BlockStatement2 {
+
+	public static void main(String[] args) {
+		
+		int amount=10,balance1=2,balance2=3;
+		
+		//With BlockStatement			
+		if (amount <= balance1)
+		{  balance1 = balance1 - amount;
+			System.out.println( "Acct new balance =" + balance1);
+		}
+		
+		
+		//Without BlockStatement
+		if (amount <= balance2)
+			balance2 = balance2 - amount;
+			System.out.println("Acct new balance = " + balance2);
+
+	}
+
+}

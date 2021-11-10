@@ -1,0 +1,16 @@
+TRUE
+Enter y :
+1
+Enter x :
+2
+Result : y not equal x
+
+
+
+
+FALSE
+Enter y :
+1
+Enter x :
+1
+Result : y  equal x

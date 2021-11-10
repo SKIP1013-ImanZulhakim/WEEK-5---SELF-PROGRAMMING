@@ -1,0 +1,19 @@
+If the statment is true,
+
+Enter total : 
+100
+Enter MAX : 
+23
+Enter MAX_rate : 
+4
+The total is 400
+
+when statement is false,
+
+Enter total : 
+1
+Enter MAX : 
+22
+Enter MAX_rate : 
+5
+The total is 0

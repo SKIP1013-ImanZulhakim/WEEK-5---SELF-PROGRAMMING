@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Loan {
+
+	public static void main(String[] args) {
+		// All logical operators have lower precedence than the relational operators
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter income amount : ");
+		int  income = sc.nextInt();
+		
+		System.out.println("Enter MIN_LEVEL :");
+		int MIN_LEVEL = sc.nextInt();
+		
+		System.out.println("Enter age : ");
+		int age = sc.nextInt();
+		
+		if ((income > MIN_LEVEL ) && (age <50))
+			   System.out.println("Can Apply Loan");
+
+	}
+
+}

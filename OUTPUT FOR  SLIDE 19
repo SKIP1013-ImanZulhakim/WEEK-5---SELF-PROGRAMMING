@@ -1,8 +1,8 @@
 Enter amount : 
-111
+100000
 Enter balance : 
-11
-Please reenter amount and balance.
+1000
+Withdrawal amount of more than RM1000.00 is not allowed.
 
 
 
